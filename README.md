@@ -1,4 +1,14 @@
 # XPLR-IOT-1
+Repositories associated with XPLR-IOT-1 have been split per function:
+
+Firmware running on NORA-B106:
+https://github.com/u-blox/XPLR-IOT-1-software
+
+Node-RED dashboard
+https://github.com/u-blox/XPLR-IOT-1-Node-RED-dashboard
+
+Hardware design
+https://github.com/u-blox/XPLR-IOT-1-hardware
 
 ## Disclaimer
 Copyright (C) u-blox 
