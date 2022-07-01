@@ -11,7 +11,7 @@ Hardware design:
 https://github.com/u-blox/XPLR-IOT-1-hardware
 
 ## Disclaimer
-Copyright (C) u-blox 
+Copyright &copy; u-blox 
 
 u-blox reserves all rights in this deliverable (documentation, software, etc.,
 hereafter “Deliverable”). 
