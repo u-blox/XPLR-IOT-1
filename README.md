@@ -1,5 +1,8 @@
 # XPLR-IOT-1
-Repositories associated with XPLR-IOT-1 have been split per function:
+
+This repository contains compiled hex and binary files for the XPLR-IOT-1, based on the source code from the firmware repository noted below.
+
+Additional repositories associated with XPLR-IOT-1 are available for application firmware, Node-RED dashboard, and the hardware design:
 
 Firmware running on NORA-B106:  
 https://github.com/u-blox/XPLR-IOT-1-software
