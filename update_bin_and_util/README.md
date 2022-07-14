@@ -19,7 +19,7 @@ The application on NORA-B1 can be updated through the MCUboot bootloader over UA
     `newtmgr.exe –-conntype=serial –-connstring=”COM8,baud=115200” image upload  app_core_update.bin`
 
     * Replace `app_core_update.bin` with the actual filename of the downloaded application core update. Replace `COM8` with the actual COM port on interface 0.
-8. Reset XPLR-IOT1 (reset button, power switch, or command line: nrfjprog –-reset)
+8. Reset XPLR-IOT1 (reset button, power switch, or command line: `nrfjprog –-reset`)
 
 ⚠	If updating the network core, both the network and application cores must be updated during the same bootloader session. If updating only the application core, the network core update can be bypassed.
 
