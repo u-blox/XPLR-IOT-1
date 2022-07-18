@@ -4,6 +4,8 @@ The hex files supplied in this folder can be used with [Nordic Semiconductor nRF
 
 It is assumed the developer is familiar with these tools.
 
+> **NOTE:** Some early units have a misalignment between the SWD connector, J11, and the end panel. If a misalignment is observed, open the case, and move the end-panel so the opening is centered around the J11 prior to connecting an SWD cable.
+
 ## Disclaimer
 Copyright &copy; u-blox 
 
