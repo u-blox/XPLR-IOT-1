@@ -1,8 +1,11 @@
 # XPLR-IOT-1 hex files
 
-The hex files supplied in this folder can be used with [Nordic Semiconductor nRF Connect for Desktop, programmer utility](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-desktop/), as well as other tools such a nrfjprog from the [Nordic Command Line Tools](https://www.nordicsemi.com/Products/Development-tools/nRF-Command-Line-Tools), or [SEGGER J-Link](https://www.segger.com/downloads/jlink/).
+The hex files supplied in this folder can be used with [Nordic Semiconductor nRF Connect for Desktop, programmer utility](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-desktop/). A [SEGGER J-Link](https://www.segger.com/downloads/jlink/) is also required to program the device with these hex files.
 
 It is assumed the developer is familiar with these tools.
+
+* 'SensorAggregation_v0.3_MergedCores.hex' contains only the Sensor Aggregation firmware, without the bootloader.
+* 'SensorAggregation_v0.3_and_Bootloader_MergedCores.hex' contains only the Sensor Aggregation firmware and the bootloader. Bootloader allows the firmware update of the device via Serial UART interface.
 
 > **NOTE:** Some early units have a misalignment between the SWD connector, J11, and the end panel. If a misalignment is observed, open the case, and move the end-panel so the opening is centered around J11 prior to connecting an SWD cable.
 

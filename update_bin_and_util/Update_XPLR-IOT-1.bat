@@ -10,7 +10,10 @@ echo **********************************************
 echo.
 set /p "COMPORT=Enter the COM port number of Interface 0 (e.g. COM15): "
 echo.
-echo Update progress:
-newtmgr.exe --conntype=serial --connstring="%COMPORT%,baud=115200" image upload SensorAggregation_v0.2.bin
+echo Updating Network Core:
+newtmgr.exe --conntype=serial --connstring="%COMPORT%,baud=115200" image upload SensorAggregation_v0.3_NetCore.bin
+echo.
+echo Updating Application Core:
+newtmgr.exe --conntype=serial --connstring="%COMPORT%,baud=115200" image upload SensorAggregation_v0.3_AppCore.bin
 echo.
 pause
