@@ -1,6 +1,7 @@
 # XPLR-IOT-1
 
-This repository contains compiled hex and binary files for the XPLR-IOT-1, based on the source code from the firmware repository noted below.
+The content of this repository - binary and hex files for updating XPLR-IOT-1 - 
+has been moved to https://github.com/u-blox/XPLR-IOT-1-software/tree/main/tools_and_compiled_images
 
 Additional repositories associated with XPLR-IOT-1 are available for application firmware, Node-RED dashboard, and the hardware design:
 
